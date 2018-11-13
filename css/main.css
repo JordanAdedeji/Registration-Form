@@ -1,0 +1,224 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'NTR', sans-serif;
+  color: #384047;
+  margin: 0;
+  font-size: 1.4em;
+}
+
+
+.code-title{
+font-family: 'Audiowide', cursive;
+background-color: black;
+padding: 15px;
+color: white;
+margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.second{
+margin-top: -27px;
+}
+
+.code-text p{
+color: darkgrey;
+}
+
+p {
+text-align: center;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.code-text p{
+margin-top: -20px;
+}
+
+hr{
+margin-left: 15px;
+margin-right: 30px;
+border: 4px solid;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 15px 10px 10px 0;
+}
+
+input,
+textarea,
+select{
+opacity: 0.5;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+border: 2px solid black;
+opacity: 1;
+}
+
+#javascript_news,
+#plain_text {
+margin-bottom: 40px;
+}
+
+#topics{
+margin-top: 20px;
+}
+
+
+
+label.light{
+display: inline;
+}
+
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input::-webkit-input-placeholder {
+  text-align: right;
+}
+
+
+#state{
+height: 50px;
+}
+
+#zip_code{
+margin-bottom: 0;
+width: 50%;
+}
+
+.primary input,
+#topics{
+border-radius: 5px;
+}
+
+#topics{
+height: 130px;
+}
+
+#copy{
+font-style: italic;
+color: grey;
+}
+
+
+legend:nth-child(1){
+padding-top: 40px;
+}
+
+
+
+@media (min-width: 768px){
+
+
+.wrapper{
+max-width: 60%;
+margin: auto;
+font-size: .9em;
+}
+
+.code-text p {
+margin-top: -20px;
+}
+
+
+
+
+.col{
+display: flex;
+}
+
+.col label {
+flex: 1 200px;
+margin: auto 0;
+max-width: 150px;
+padding-bottom: 30px;
+}
+
+#zip_code{
+height: 55px;
+}
+
+
+.col input,
+.col select {
+flex: 2 550px;
+max-width: 100%;
+}
+
+.col input[name="user_zip_code"] {
+ max-width: 25%;
+}
+
+
+
+
+}
