@@ -40,6 +40,12 @@ padding-left: 25px;
 padding-right: 25px;
 }
 
+.second p{
+text-align: left;
+padding-left: 0;
+}
+
+
 .code-text p{
 margin-top: -20px;
 }
