@@ -151,6 +151,9 @@ input::-webkit-input-placeholder {
   text-align: right;
 }
 
+textarea::-webkit-input-placeholder {
+  text-align: center;
+}
 
 #state{
 height: 50px;
